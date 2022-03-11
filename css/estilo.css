@@ -1,0 +1,297 @@
+@font-face {
+        font-family: 'Raleway';    
+        src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+    } 
+
+h1, h2, h3, h4, h5, h6 {
+    color:#464646;
+}
+
+body {
+       background: #F5F5F5;
+       font-family: 'Raleway', sans-serif;
+}    
+
+nav {
+    background-color: #F5F5F5;
+}
+
+.navbar-dark .navbar-nav .nav-link, .nav-link-extra {
+    color:black;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:rgb(42,122,228);
+    border: 1px dotted rgb(42,122,228);
+
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: rgb(42,122,228);
+}
+
+.navbar-dark .navbar-nav {
+    margin-right: 50px;
+}
+
+.navbar-toggler {
+    background-color: rgba(70, 70, 70, 0.620);
+}
+
+.vector-star-one {
+    margin-top: 8px;
+    margin-left: 105px;
+}
+
+.vector-star-two {
+    margin-top: -5px;
+    margin-left: -2px
+}
+
+.vector-star-three {
+    margin-top: 16px;
+    margin-left: -8px;
+}
+
+.identificacao {
+    font-size: 15px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.info-contact {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.first-section {
+    padding-bottom: 130px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 100px;
+    font-weight: 400;
+}
+
+.social-links {
+    margin-left: -3px;
+    margin-top: -7px
+}
+
+.col-img-profile {
+    padding-left: 35px;
+}
+
+.img-profile {
+    margin-top: 85px;
+}
+
+.section-aboutme {
+    padding-top: 64px;
+}
+
+.section-aboutme, .section-courses {
+    background-color: rgb(234, 242, 253);
+    padding-bottom: 64px;
+}
+
+.h2-aboutme {
+    font-size: 25px;
+    margin-left: 90px;
+}
+
+.p-aboutme {
+    width: 50%;
+    margin-left: 90px;
+}
+
+.minha-assinatura {
+    width: 75px;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+.container-card-groups {
+    background: #F5F5F5;
+}
+
+.skills, .hobbies {
+    font-size: 25px;
+    text-align:center;
+}
+
+.skills {
+    padding-top: 30px;
+}
+
+.hobbies {
+    margin-top: 70px;
+}
+
+.card {
+    margin-right: 20px;
+    position: static;
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px; 
+    margin-top: -5px;
+}
+
+.card-text {
+    font-size: 11.5px;
+    line-height: 14px;
+}
+
+.icons {
+    width: 35%; 
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.click-info {
+    cursor: pointer;
+}
+
+.img-click-info {
+    width: 25%;
+    margin-left: 80%;
+    position: static;
+}
+
+.img-click-info-courses {
+    width: 20%;
+    margin-left: 80%;
+    position: static;
+}
+
+.formacao-ac {
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+.icons-courses {
+    width: 60%;
+    margin-top: 25px;
+    margin-left: 40px;
+    /*opacity: 0.8;*/
+}
+
+.title-courses {
+    font-size: 15px;
+    line-height: 20px; 
+    text-align: center;
+}
+
+.body-courses {
+    margin-top: 5%;
+}
+
+ol, .p-toggle1, .p-toggle2, .p-toggle3, .p-toggle4, .p-toggle5, .p-toggle6, .p-toggle7, .p-toggle8, .p-toggle9, .p-toggle10 {
+    display: none;
+    right: 50px;
+    background: #EAF2FD;
+    box-shadow: 3px 2px 3px 2px #464646;
+    padding: 10px 10px;
+    position: relative;
+}
+
+ol li, .p-toggle1, .p-toggle2, .p-toggle3, .p-toggle4, .p-toggle5, .p-toggle6, .p-toggle7, .p-toggle8, .p-toggle9, .p-toggle10 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 15px;
+}
+
+.titulo-conteudo-adicional {
+    font-size: 13px;
+    color: rgb(42,122,228);
+}
+
+.title-xp-pro {
+    margin: 30px 30px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.img-template-decodificador {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.img-replica-decodificador {
+    width: 100%;
+    margin-bottom: 70px;
+    border-radius: 0px 0px 0px 30px;
+}
+
+.img-forca {
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius:20px;
+}
+
+.p-hangman {
+    width: 85%;
+}
+
+.badges {
+    margin-top: 175px;
+}
+
+.cols-info-projects {
+    margin-bottom: 70px;
+}
+
+.img-tel {
+    width: 100%;
+}
+
+#contact {
+    background: #EAF2FD;
+}
+
+.col-tel, .col-form {
+    padding: 115px 25px 66px 25px;
+}
+
+.title-form {
+    font-size: 30px;
+}
+
+form label {
+    display:block;
+    margin: 0px 0px;
+    background: white;
+    font-size: 12px;
+    color: #A2A2A2;
+}
+
+form legend {
+	font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+	margin-bottom: 15px;
+	padding: 5px 5px;
+	width: 100%;
+    border: 0 none;
+    display:block;
+}
+
+textarea {
+    resize: none;
+}
+
+.enviar {
+    margin-top: 25px;
+}
+

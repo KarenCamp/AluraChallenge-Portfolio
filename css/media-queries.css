@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1200px) {
+    .card-title { display:none !important}
+    .card { width: 3.5rem !important; height: 6rem !important; border-radius: 7px !important}
+    .ol-1::before {content: "Desenvolvimento para Mídias Digitais (2020)"; font-weight:bold; font-size: 15px; color: rgb(42,122,228);}
+    .ol-2::before {content: "Produção de Websites Expert - Front End (2021)"; font-weight:bold; font-size: 15px; color: rgb(42,122,228);}
+    .ol-3::before {content: "Santander Bootcamp - Digital Innovation One - FullStack Developer (2021)"; font-weight:bold; font-size: 15px; color: rgb(42,122,228);}
+    .ol-4::before {content: "CursoemVideo (2020 - Atualmente)"; font-weight:bold; font-size: 15px; color: rgb(42,122,228);}
+    .ol-5::before {content: "Programa ONE (2022)"; font-weight:bold; font-size: 15px; color: rgb(42,122,228);}
+    .p-toggle1::before {content: "Soft Skills"; font-weight:bold; font-style: none; font-size: 13px;color: rgb(42,122,228); display:block}
+    .p-toggle2::before {content: "Bem como noções de Bootstrap, Java e Python, cá estão outras noções, porém bem leves:"; 
+                        font-weight:bold; font-style: none; font-size: 13px;color: rgb(42,122,228); display:block}
+    .p-toggle3::before {content: "Ler artigos interessantes"; font-weight:bold; font-style: none; font-size: 13px;color: rgb(42,122,228); display:block}
+    .p-toggle4::before {content: "Colecionar diversidades"; font-weight:bold; font-style: none; font-size: 13px;color: rgb(42,122,228); display:block}
+    .p-toggle5::before {content: "Ouvir músicas nostálgicas"; font-weight:bold; font-style: none; font-size: 13px;color: rgb(42,122,228); display:block}
+    .p-toggle6::before {content: "Tocar teclado"; font-weight:bold; font-style: none; font-size: 13px;color: rgb(42,122,228); display:block}
+    .p-toggle7::before {content: "Passear"; font-weight:bold; font-style: none; font-size: 13px;color: rgb(42,122,228); display:block}
+    .p-toggle8::before {content: "Jogar Clash Royale"; font-weight:bold; font-style: none; font-size: 13px;color: rgb(42,122,228); display:block}
+    .p-toggle9::before {content: "Pintar"; font-weight:bold; font-style: none; font-size: 13px;color: rgb(42,122,228); display:block}
+    .p-toggle10::before {content: "Conhecimento como um todo"; font-weight:bold; font-style: none; font-size: 13px;color: rgb(42,122,228); display:block}
+    .img-click-info { width: 35% !important; margin-left: 80% !important; margin-top: -45px !important}
+    .resize-icons-two-sections {width: 40% !important}
+    .icons-courses {width: 40% !important; margin-left: 15px !important; margin-top: 6px !important}
+    .img-click-info-courses {width: 18% !important; margin-left: 90% !important; margin-top: -85px !important}
+}
+@media only screen and (max-width: 990px) {
+    .card { height: 5.7rem !important}
+    .img-click-info { width: 55% !important; margin-left: 80% !important; margin-top: -45px !important}
+    .resize-icons-two-sections { width: 60% !important}
+    .icons-courses {width: 55% !important; margin-left: 15px !important; margin-top: 6px !important}
+    .img-click-info-courses {width: 22% !important; margin-left: 90% !important; margin-top: -85px !important}
+}
+@media only screen and (max-width: 770px){
+    .card { height: 4.5rem !important}
+    .img-click-info { width: 100% !important; margin-left: 80% !important; margin-top: -45px !important}
+    .resize-icons-two-sections { width: 70% !important}
+    .icons-courses {width: 60% !important; margin-left: 15px !important; margin-top: 6px !important}
+    .img-click-info-courses {width: 30% !important; margin-left: 95% !important; margin-top: -65px !important}
+    .badges-div{display: none;}
+}
+@media only screen and (max-width: 575px){
+    .card-title {display:inline-block !important}
+    .card {width: 7rem !important; height: 9.5rem !important; border-radius:0px !important}
+    .ol-1::before {content: none}
+    .ol-2::before {content: none}
+    .ol-3::before {content: none}
+    .ol-4::before {content: none}
+    .ol-5::before {content: none}
+    .p-toggle1::before {content: none}
+    .p-toggle2::before {content: none}
+    .p-toggle3::before {content: none}
+    .p-toggle4::before {content: none}
+    .p-toggle5::before {content: none}
+    .p-toggle6::before {content: none}
+    .p-toggle7::before {content: none}
+    .p-toggle8::before {content: none}
+    .p-toggle9::before {content: none}
+    .p-toggle10::before {content: none}
+    .img-click-info { width: 25% !important; margin-left: 80% !important; margin-top: -15px !important}
+    .resize-icons-two-sections {width: 40% !important}
+    .icons-courses {width: 60% !important; margin-left: 22px !important; margin-top: 6px !important}
+    .title-courses {font-size: 10px !important; line-height: 10px !important}
+    .img-click-info-courses {width: 25% !important; margin-left: 96% !important; margin-top: -55px !important}
+    .card { margin-left: auto; margin-right: auto;}
+}
+
