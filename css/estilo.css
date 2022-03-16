@@ -136,9 +136,10 @@ h1 {
     position: static;
 }
 
-/*.card:hover {
+.card:hover {
     transform: scale(1.1);
-}*/
+    outline: 1px solid #2A7AE4;
+}
 
 .card-title {
     font-style: normal;
