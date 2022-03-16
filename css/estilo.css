@@ -136,9 +136,9 @@ h1 {
     position: static;
 }
 
-.card:hover {
+/*.card:hover {
     transform: scale(1.1);
-}
+}*/
 
 .card-title {
     font-style: normal;
