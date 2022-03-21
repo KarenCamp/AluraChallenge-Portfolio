@@ -14,7 +14,7 @@ var regexp = /[0-9]/;
                 this.classList.add('campo-invalido');
             }
 
-            else if (this.name == "nome" && this.value.match(regexp)){
+            else if (this.name == "nome" && this.value.match(regexp)) {
                 confirm('Há números no campo "nome".');
                 formSubmit.disabled = true;
                 this.previousElementSibling.dataset.content = " X";
