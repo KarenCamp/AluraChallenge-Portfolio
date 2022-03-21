@@ -46,7 +46,7 @@
     </div>
   </nav>
 </header>
-<body>
+<body onload="resetarForm()">
   <main>
     <section class="container first-section" id="primeira-section">
       <div class="row">
@@ -416,17 +416,18 @@
               <legend>Quer entrar em contato comigo?<br>
                 Preencha o formulário abaixo e entrarei em contato o mais rápido possível.</legend>
               <label for="nome">Nome</label>
-              <input type="text" id="nome" class="input-padrao" required>
+              <input type="text" name="nome" id="nome" class="input-padrao" required>
+      
 
               <label for="email">Email</label>
-              <input type="email" id="email" class="input-padrao" required>
+              <input type="email" name="e-mail" id="email" class="input-padrao" required>
 
 
               <label for="assunto">Assunto</label>
-              <input type="text" id="assunto" class="input-padrao" required>
+              <input type="text" name="assunto" id="assunto" class="input-padrao" required>
 
               <label for="mensagem">Mensagem</label>
-              <textarea cols="45" rows="3" id="mensagem" class="input-padrao" required></textarea>
+              <textarea cols="45" rows="3" name="mensagem" id="mensagem" class="input-padrao" required></textarea>
 
               <input type="submit" value="Enviar mensagem" class="enviar btn btn-primary">
             </fieldset>
@@ -445,7 +446,8 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/scrolling.js"></script>
-  <script src="js/tratando-eventos.js"></script>
+  <script src="js/tratando-eventos-learning-jquery.js"></script>
+  <script src="js/validacoes-do-formulario.js"></script>
 
 </body>
 

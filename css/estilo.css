@@ -280,6 +280,15 @@ form label {
     color: #A2A2A2;
 }
 
+label::after {
+    content: attr(data-content);
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: #464646;
+    text-shadow: 2px 3px 3px lightslategray;
+}
+
 form legend {
 	font-size: 17px;
     margin-bottom: 10px;
@@ -301,7 +310,14 @@ textarea {
     resize: none;
 }
 
+.campo-validado {
+    outline: 2px solid green;
+}
+
+.campo-invalido {
+    outline: 1px solid red;
+}
+
 .enviar {
     margin-top: 25px;
 }
-
