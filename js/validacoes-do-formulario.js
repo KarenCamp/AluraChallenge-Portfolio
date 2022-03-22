@@ -20,7 +20,7 @@ var btnCloseModal = document.querySelector('.close');
                 showModalError();
             }
 
-            else if (this.name == "nome" && this.value.match(regexp)){
+            else if (this.name == "nome" && this.value.match(regexp)) {
                 formSubmit.disabled = true;
                 this.previousElementSibling.dataset.content = " X";
                 this.classList.remove('campo-validado');
