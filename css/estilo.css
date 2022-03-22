@@ -346,6 +346,7 @@ textarea {
 
 .error-content strong {
     color: orangered;
+    font-weight: 700;
 }
 
 ul.error-content {
