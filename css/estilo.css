@@ -321,3 +321,60 @@ textarea {
 .enviar {
     margin-top: 25px;
 }
+
+.intro-descontraida {
+    font-weight: 600;
+    color: rgb(249, 102, 49);
+    margin-left: 75%;
+}
+
+.modal-title {
+    font-weight: 600;
+    color:rgb(42, 122, 228);
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 2%;
+}
+
+.error-content {
+    font-weight: 600;
+}
+
+.error-content em {
+    color:rgb(42, 122, 228);
+}
+
+.error-content strong {
+    color: orangered;
+}
+
+ul.error-content {
+    list-style: none;
+}
+
+ul.error-content li::before {
+    content: "\2022";  
+    color: red; 
+    display: inline-block; 
+    width: 1em;
+    margin-left: -0.9em;
+    font-weight: bold;
+    font-size:1.6rem;
+}
+
+.redefine-modal-body {
+    margin-left: 2%;
+    font-weight: 600;
+}
+
+.close {
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 1px darkslategray;
+}
+
+.close:hover {
+    color: rgb(42, 122, 228);
+    font-weight: bolder;
+    text-shadow: 2px 2px 1px white;
+}

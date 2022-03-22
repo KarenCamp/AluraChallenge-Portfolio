@@ -434,7 +434,31 @@
           </form>
         </div>
       </div>
-    </section>
+    <!-- Uso de Modal para efeito de Alert Personalizado durante as validações do Formulário-->
+    <div class="modal fade" id="meuPrimeiroModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="intro-descontraida">Bem-vindo ao meu primeiro modal! =D</h5>
+            <h5 class="modal-title">Verificação de erros no formulário</h5>
+          </div>
+          <div class="modal-body">
+            <ul class="error-content">
+              <li>Os campos não podem estar vazios.</li>
+              <li>Não podem haver números no campo <em>''nome''</em>.</li>
+              <li>Os campos <em>''nome''</em> e <em>''assunto''</em> devem conter entre <strong>2</strong> a <strong>50</strong> caracteres.</li>
+              <li>O campo <em>''e-mail''</em> deve estar em formato de e-mail contendo o caractere especial <strong>''@''</strong> seguido por um domínio ou provedor seguido por um ponto <strong>(.)</strong> **Exemplo: text@texto.com**.</li>
+              <li>O campo <em>''mensagem''</em> deve conter entre <strong>2</strong> a <strong>300</strong> caracteres.</li>
+            </ul>
+            <p class="redefine-modal-body">Todos os campos estão corretamente preenchidos, formulário pronto para envio.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info close" data-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
   </main>
 
   <footer class="container">
