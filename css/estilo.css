@@ -138,7 +138,7 @@ h1 {
 
 .card:hover {
     transform: scale(1.1);
-    outline: 1px solid #2A7AE4;
+    outline: 1px solid rgb(155, 198, 244);
 }
 
 .card-title {
