@@ -249,7 +249,8 @@ ol li, .p-toggle1, .p-toggle2, .p-toggle3, .p-toggle4, .p-toggle5, .p-toggle6, .
 }
 
 .badges {
-    margin-top: 140px;
+    width: 100%;
+    margin-top: 33px;
 }
 
 .cols-info-projects {

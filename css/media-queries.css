@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
     .card-title { display:none !important}
     .card { width: 3.5rem !important; height: 6rem !important; border-radius: 7px !important}
     .ol-1::before {content: "Desenvolvimento para Mídias Digitais (2020)"; font-weight:bold; font-size: 15px; color: rgb(42,122,228);}
@@ -21,15 +21,17 @@
     .resize-icons-two-sections {width: 40% !important}
     .icons-courses {width: 40% !important; margin-left: 15px !important; margin-top: 6px !important}
     .img-click-info-courses {width: 18% !important; margin-left: 90% !important; margin-top: -85px !important}
+    .badges-div {margin-top: 0px !important; width: 95%!important;}
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 991px) {
     .card { height: 5.7rem !important}
     .img-click-info { width: 55% !important; margin-left: 80% !important; margin-top: -45px !important}
     .resize-icons-two-sections { width: 60% !important}
     .icons-courses {width: 55% !important; margin-left: 15px !important; margin-top: 6px !important}
     .img-click-info-courses {width: 22% !important; margin-left: 90% !important; margin-top: -85px !important}
+    .badges-div {margin-top: 0px !important; width: 81%!important;}
 }
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 767px){
     .p-aboutme {width: 85%;}
     .card { height: 4.5rem !important}
     .img-click-info { width: 100% !important; margin-left: 80% !important; margin-top: -45px !important}
